@@ -2853,6 +2853,43 @@
 			height: 9em;
 		}
 
+		.features li .project-fe{
+			margin: 0;
+    		font-weight: 800;
+    		font-size: 0.75em;
+    		margin-top: -1em;
+    		text-transform: uppercase;
+		}
+
+
+		.features li .style1{
+			color:#1976d3;
+		}
+
+		.features li .style2{
+			color:#f56200;
+		}
+
+		.features li .style3{
+			color:#1976d3;
+		}
+
+		.features li .style4{
+			color:#d74315;
+		}
+
+		.features li .style5{
+			color:#1b4f9b;
+		}
+
+		.features li .style6{
+			color:#8ec34f;
+		}
+
+		.features li .style7{
+			color:#ff0808;
+		}
+
 			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
 				margin-top: 0;
 			}
