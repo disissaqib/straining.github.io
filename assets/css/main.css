@@ -3037,7 +3037,7 @@
 			.spotlight .image img {
 				display: block;
 				border-radius: 100%;
-				width: 16em;
+				width: 10em;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3081,7 +3081,7 @@
 			}
 
 				.spotlight .image img {
-					width: 12em;
+					width: 10em;
 				}
 
 		}
@@ -3795,7 +3795,7 @@
 		@media screen and (max-width: 360px) {
 
 			#wrapper {
-				max-width: 100%;
+				max-width: calc(100% - 2em);
 			}
 
 		}
