@@ -2896,7 +2896,7 @@
 		display: -ms-flex;
 		display: flex;
 		width: 100%;
-		margin: 0 0 3em 0;
+		margin: 0 0 1em 0;
 		padding: 0;
 		list-style: none;
 		cursor: default;
@@ -2921,15 +2921,21 @@
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				border-bottom: 2px solid #597aab;
+			    background: #f4f9ff;
+    			border-radius: 0.7em;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+			    border-bottom: 2px solid #000;
+    			background: #fff8e4;
+    			border-radius: 0.7em;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				border-bottom: 2px solid #f7df1e;
+    			background: #F6F6F6;
+    			border-radius: 0.7em;
 			}
 
 			.statistics li.style5 {
@@ -2938,7 +2944,7 @@
 
 			.statistics li strong, .statistics li b {
 				display: block;
-				font-size: 2em;
+				font-size: 1.5em;
 				line-height: 1.1;
 				color: inherit !important;
 				font-weight: 300;
@@ -2995,13 +3001,9 @@
 			}
 
 				.statistics li:first-child {
-					border-bottom-left-radius: 0;
-					border-top-right-radius: 8px;
 				}
 
 				.statistics li:last-child {
-					border-top-right-radius: 0;
-					border-bottom-left-radius: 8px;
 				}
 
 				.statistics li .icon:before {
