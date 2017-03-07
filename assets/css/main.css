@@ -2853,6 +2853,10 @@
 			height: 9em;
 		}
 
+		.features li .special{
+			background-color: #1976d3!important;
+		}
+
 		.features li .project-fe{
 			margin: 0;
     		font-weight: 800;
